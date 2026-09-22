@@ -5,7 +5,7 @@
 -- now use the surrogate keys of dimension views in place of actual ids in sales to easily connect dimension and facts and name the view as fact_sales.
 -- Rename the column user friendly.
 -- **************************************************************************************************************************
-create view gold.fact_sales as
+create  or replace view gold.fact_sales as
 select 
 	sd.sls_ord_num as order_number,
 	p.product_key , -- using surrogate key(product_key) inplace of product_number(sls_prd_key)
