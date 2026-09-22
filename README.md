@@ -16,4 +16,4 @@ The project integrates data from **CRM** and **ERP** source systems and organize
 
 The project follows a **Medallion Architecture**:
 
-![App Screenshot](Document\architecture.png)
+![App Screenshot](https://github.com/nithin831/postgress_dwh_and_analysis_project/blob/master/Document/architecture.png)
